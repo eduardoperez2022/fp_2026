@@ -2,6 +2,15 @@
 
 package ejer_401;
 
+//E401 - Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular y cantidad 
+//(puede tener decimales).
+//Tendrá dos métodos especiales:
+//- ingresar(double cantidad): se ingresa una cantidad a la cuenta, si la cantidad introducida es 
+//negativa, no se hará nada.
+//- retirar(double cantidad): se retira una cantidad a la cuenta, si restando la cantidad actual a 
+//la que nos pasan es negativa, la cantidad de la cuenta pasa a ser 0.
+//- ver_saldo(): este método devuelve el saldo de la cuenta, con decimales.
+
 public class Ejer_401 {
 
     public static void main(String[] args) {
